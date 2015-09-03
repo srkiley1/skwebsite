@@ -1,0 +1,240 @@
+ body {
+    /* Typography Declarations */
+    color: #0075bf;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #fff;
+    border-top: 14px #0075bf;
+    margin: none;
+  }
+
+.masthead {
+    background-image: url(../images/skphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: 20% 50%;
+    
+    text-align: center;
+    padding: -10em;
+    height:  30.625em;
+     position:  225px 225px;
+}
+.masthead p {
+    text-align: left;
+    margin-left: 110px;
+}
+
+.content-footer,
+.introduction-section
+ {
+    text-align: center;
+    background-color:	#fff;
+    padding: .1em;
+}
+
+ul.social {}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;    
+    margin: 1em 0 1em 0;
+}
+
+.content-footer > p {
+  color: black;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+}
+  
+  .section > h1 {
+    margin-top: 2em; 
+}
+
+@media only screen and (max-width:  480px) {
+  .masthead {
+    padding: 3em 0
+  }
+  .masthead-heading {
+    font-size: 3em;
+  
+  }
+ }
+/**Miscellaneous**/
+li {
+    height: 1em;
+    padding: 5px;
+    text-align: center;
+    color:#0075bf;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+ }
+
+
+
+.container h2 {
+    text-align: center;
+}  
+
+h5 {
+    margin-left: 475px;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+nav.navbar.navbar-default {
+    background-color: white;
+}
+
+.introduction-section {
+    text-align:center;
+}
+
+.active {
+    color: black;
+}
+
+.container {
+    text-align: right;
+    color: #0075bf;
+    height: 9em;
+    background-color:white;
+}
+
+a {
+    color: #0075bf;
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    padding:  15px;
+}
+
+a.btn.btn-default {}
+ul.nav.nav-pills {
+    text-align: center;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #352719;
+    text-align: center; 
+}
+
+p {
+    font-size: 12px;
+    margin-left: 0%;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.container.text-center h2 {
+    padding-bottom: 60px;
+    margin-top: 50px;
+    height: 500; 
+}
+
+.content-footer {
+     height:  400px;
+}
+
+ul.social {
+    height: 100px;
+    padding-left: 0px;
+}
+
+ul.social p {
+    margin-bottom: 9px;
+    margin-top: 19px;
+}
+
+.row {
+    text-align: center;
+    margin-right: -50px;
+    height: 200px;
+}
+
+#intro {
+    display: inline-block;
+}
+
+.container.text-center {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 0;
+}
+
+@media only screen and (max-width:  480px) {
+  .services {
+    padding: 3em 0
+  }
+
+.services h1 {
+    text-align: center;
+   
+}
+
+.services ul{
+    list-style-type: none;
+}
+
+.services li {
+    height: 2em;
+}
+
+ .services h4 {
+    text-align: center;
+    margin-left: 1.5em;
+    border-top-color:  #0075bf;
+}
+
+.container {
+    text-align: right;
+    height: 2em;
+    color: black;
+}
+
+.services li {
+    margin: none;
+}
+
+a:hover {
+    color:#0075bf;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+   color: #0075bf;
+}
+
+.container a.btn.btn-default{
+    color: black;
+}
+
+.btn {
+    background-color: #352719;
+    color: white;
+    text-decoration: none;
+}
+
+.row3 {
+    height: 5em;
+    background-color:  red;
+}
